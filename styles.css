@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto mono', monospace;
+}
+
+input {
+    background-color: #FFF;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Roboto mono', sans-serif;
+}
+
+button, .inputBtn {
+    background-color: #FFF;
+    border-radius: 0.3rem;
+    border: 1px dashed black;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Roboto mono', sans-serif;
+}
+
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    background-color: #FFF;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.poke-card {
+    padding: 5px;
+    max-width: 300px;
+    border-radius: 4px;
+    text-align: center;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+.poke-card::before {
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-types div {
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.poke-abilities {
+    display: none;
+    font-weight: 400;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+    background-color: rgba(0, 0, 0, 0.15);
+}
