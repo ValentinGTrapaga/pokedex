@@ -90,7 +90,7 @@ const renderPokemonAbilities = abilities => {
     pokeAbilities.appendChild(abilityTextElement);
   });
   pokeAbilities.style.display = "block"
-} 
+}
 
 const renderPokemonStats = stats => {
   pokeStats.innerHTML = '';
@@ -120,7 +120,7 @@ const renderNotFound = (err) => {
   console.log(err)
   pokeName.textContent = 'No encontrado';
   pokeImg.setAttribute('src', 'poke-shadow.png');
-  pokeImg.style.background =  '#fff';
+  pokeImg.style.background = '#fff';
   pokeTypes.innerHTML = '';
   pokeStats.innerHTML = '';
   pokeId.textContent = '';

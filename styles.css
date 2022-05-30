@@ -88,6 +88,7 @@ input {
     align-content: space-between;
     padding: 5px;
     font-size: 18px;
+    
 }
 
 .poke-types div {
@@ -96,7 +97,7 @@ input {
     margin: 5px;
     border-radius: 4px;
     border: 1px dashed black;
-    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-text-stroke: 1px black;
 }
 
 .poke-img {
@@ -111,5 +112,4 @@ input {
     margin: 5px;
     border-radius: 4px;
     border: 1px dashed black;
-    background-color: rgba(0, 0, 0, 0.15);
 }
